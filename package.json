@@ -1,0 +1,27 @@
+{
+	"name" : "nodemange",
+	"version" : "0.0.1",
+	"description" : "install magento auto",
+	"author" : "Lan Nguyen <bangthong89@gmail.com>",
+	"private" : true,
+	"scripts" : {
+		"start" : "node install.js"
+	},
+	"contributors" : [
+		{
+			"name" : "Lan Nguyen",
+			"email" : "bangthong89@gmail.com"
+		}
+	],
+	"dependencies" : {
+		"wget" : "*",
+		"tar.gz" : "*",
+		"fs-extra" : "*",
+		"rimraf" : "*",
+		"chmodr" : "*"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.6"
+	}
+}
